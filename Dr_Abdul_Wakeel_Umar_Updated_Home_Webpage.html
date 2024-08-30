@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Abdul Wakeel Umar</title>
+    <style>
+        body, html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f9f0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header, footer {
+            background-color: #2e8b57; /* Dark green */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #006400; /* Darker green */
+            color: white;
+            overflow: auto;
+            margin-top: 10px;
+        }
+        nav a {
+            padding: 14px 20px;
+            float: left;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+            border-right: 1px solid #228B22; /* Forest green */
+        }
+        nav a:last-child {
+            border-right: none;
+        }
+        nav a:hover {
+            background-color: #228B22; /* Forest green */
+        }
+        .content {
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2e8b57; /* Dark green */
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #006400; /* Darker green */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Dr. Abdul Wakeel Umar</h1>
+    <p>Researcher in Biotechnology and Molecular Biology</p>
+</header>
+
+<div class="container">
+    <nav>
+        <a href="#" onclick="showTab('home')">Home</a>
+        <a href="#" onclick="showTab('objective')">Objective</a>
+        <a href="#" onclick="showTab('education')">Education</a>
+        <a href="#" onclick="showTab('experience')">Experience</a>
+        <a href="#" onclick="showTab('skills')">Skills</a>
+        <a href="#" onclick="showTab('conferences')">Conferences</a>
+        <a href="#" onclick="showTab('publications')">Publications</a>
+        <a href="#" onclick="showTab('contact')">Contact</a>
+    </nav>
+
+    <div id="home" class="tab-content active content">
+        <img src="/mnt/data/image.png" alt="Dr. Abdul Wakeel Umar">
+        <h2>Welcome</h2>
+        <p>Welcome to the personal webpage of Dr. Abdul Wakeel Umar. Here you can explore my academic background, research experience, skills, and professional contributions in the field of Biotechnology and Molecular Biology.</p>
+    </div>
+
+    <div id="objective" class="tab-content content">
+        <h2>Objective</h2>
+        <p>A highly skilled professional with a Ph.D. in Biotechnology and Molecular Biology, proficient in laboratory techniques including DNA/RNA extraction, PCR, gel electrophoresis, Western blotting, immunoprecipitation, DIC, confocal and electron microscopy, cell culture, cloning, and protein purification. I have in-depth knowledge of molecular biology principles, bioinformatics tools, cell and tissue culture, microbiological techniques, and data analysis. I excel in scientific writing and communica...
+    </div>
+
+    <div id="education" class="tab-content content">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Ph.D. in Agromolecular Biotechnology</strong>, Zhejiang University, Hangzhou, China (September 7, 2015 – June 30, 2018)
+                <ul>
+                    <li>Dissertation: "Ethylene mediates dichromate-induced morpho-physiological, biochemical, and molecular changes in plants."</li>
+                    <li>Supervisor: Professor Dr. Yinbo Gan</li>
+                    <li>Achievements: Completed coursework with an average of 85%, published five research articles, applied for national and provincial projects, co-mentored junior colleagues.</li>
+                </ul>
+            </li>
+            <li><strong>MPhil in Biotechnology</strong>, Quaid-I-Azam University, Islamabad, Pakistan (September 16, 2013 – August 11, 2015)
+                <ul>
+                    <li>Dissertation: "Evaluation of Antioxidant, Antimicrobial, Antileishmanial and Cytotoxic Capacity of Isitis tinctoria L."</li>
+                    <li>Supervisor: Professor Dr. Zabta Khan Shinwari</li>
+                    <li>Achievements: Completed 24 credit courses, published three articles, successfully defended thesis.</li>
+                </ul>
+            </li>
+            <li><strong>BS (Honors) in Biotechnology and Genetic Engineering</strong>, Kohat University of Science and Technology, Pakistan (January 21, 2009 – March 15, 2013)
+                <ul>
+                    <li>Dissertation: "Isolation, screening, and characterization of proteolytic bacteria from soil samples collected from various slaughtering houses in Khyber Pakhtunkhwa."</li>
+                    <li>Supervisor: Professor Dr. Noor Muhammad</li>
+                    <li>Achievements: Completed 130 credit hours, successfully defended thesis.</li>
+                </ul>
+            </li>
+            <li><strong>BSc in Biological Science</strong>, Govt. Superior Science College, University of Peshawar, Pakistan (September 6, 2006 – October 11, 2008)</li>
+        </ul>
+    </div>
+
+    <div id="experience" class="tab-content content">
+        <h2>Work/Research Experience</h2>
+        <ul>
+            <li><strong>Associate Distinguished Research Fellow (ADRF)</strong>, Beijing Normal University, China (October 20, 2022 – present)
+                <ul>
+                    <li>Advancing Cell-Free Protein Synthesis: Utilizing Nanodiscs, Washed Cell Organelles, and Liposomes for Membrane Protein Production.</li>
+                    <li>Investigating Hormonal Regulation in Meristematic Cell Growth and Development under Diverse External Stimuli.</li>
+                    <li>Collaborating with national and international researchers, contributing to high-impact publications.</li>
+                </ul>
+            </li>
+            <li><strong>Brain Pool Invited Scientist</strong>, Korea Research Institute of Bioscience and Biotechnology (KRIBB), South Korea (August 1, 2021 - September 30, 2022)
+                <ul>
+                    <li>Investigating Polymerase Enzyme Components in cis-Polyisoprene Polymerization through Multi-Omics and Biotechnological Approaches.</li>
+                    <li>Publishing research in high-impact journals, securing external funding.</li>
+                    <li>Organizing workshops and mentoring junior researchers.</li>
+                </ul>
+            </li>
+            <li><strong>Outstanding Postdoctoral Research Fellow</strong>, Henan University, China (February 1, 2019 – May 30, 2021)
+                <ul>
+                    <li>Conducting multidisciplinary research in Metabolite Isolation and Hormonal Regulation.</li>
+                    <li>Authoring articles in high-impact journals, participating in forums.</li>
+                </ul>
+            </li>
+            <li><strong>Assistant Professor, Environmental Science</strong>, Miami College, Henan University, China (January 1, 2020 – December 30, 2020)
+                <ul>
+                    <li>Instructing courses on Air Pollution Control and Environmental Geography.</li>
+                    <li>Collaborating with Miami University in curriculum development.</li>
+                    <li>Mentoring and supervising students in final projects.</li>
+                </ul>
+            </li>
+            <li><strong>Senior Research Associate</strong>, DNA Consultants, Kabul, Afghanistan (July 1, 2018 – December 30, 2018)
+                <ul>
+                    <li>Conducting surveys and field studies to support project proposals.</li>
+                    <li>Mentoring and training young scholars, collaborating with teams on project proposals.</li>
+                </ul>
+            </li>
+            <li><strong>Biology Lecturer</strong>, Chanab International College, Pakistan (December 4, 2013 – August 30, 2015)
+                <ul>
+                    <li>Designing and delivering A-level Biology lessons, creating curriculum materials.</li>
+                    <li>Evaluating student progress and performing experiments.</li>
+                </ul>
+            </li>
+            <li><strong>Chemistry Lecturer</strong>, Faculty of Engineering, Alfalah University, Afghanistan (February 1, 2013 - November 30, 2013)
+                <ul>
+                    <li>Designing and delivering General Chemistry lessons, creating curriculum materials.</li>
+                    <li>Evaluating student progress, performing experiments, collaborating with colleagues in departmental activities.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="skills" class="tab-content content">
+        <h2>Essential Skills & Techniques</h2>
+        <ul>
+            <li><strong>Laboratory Techniques:</strong> DNA/RNA isolation, cDNA synthesis, PCR, gel electrophoresis, Western blotting, protein isolation, spectrophotometry, cell organelle isolation, immunoprecipitation, chromatography.</li>
+            <li><strong>Molecular Biology:</strong> Gene expression analysis, genetic engineering techniques, DNA sequencing, CRISPR-Cas9, antibody characterization.</li>
+            <li><strong>Bioinformatics:</strong> Experience with bioinformatics tools and databases such as NCBI, TMHMM, PHYRE-2.0, Galaxy.</li>
+            <li><strong>Cell and Tissue Culture:</strong> Expertise in plant cell and tissue culture techniques, plant transformation, immunocytochemistry.</li>
+            <li><strong>Microbiology:</strong> Microbial culture, isolation, identification, antimicrobial susceptibility testing.</li>
+            <li><strong>Data Analysis:</strong> Proficiency in statistical analysis using software like Minitab, SPSS, and data visualization.</li>
+            <li><strong>Scientific Writing and Communication:</strong> Strong skills in research papers, grant proposals, technical reports, and presentations.</li>
+            <li><strong>Project Management:</strong> Planning, organizing, and executing research projects effectively.</li>
+            <li><strong>Collaboration and Teamwork:</strong> Experience working collaboratively in multidisciplinary teams.</li>
+        </ul>
+    </div>
+
+    <div id="conferences" class="tab-content content">
+        <h2>Conferences/Exhibitions/Prizes</h2>
+        <ul>
+            <li>Speaker at the "Phoenix Forum of Beijing Normal University on Global Symbiosis: Education for the Future" (May 11-12, 2024)</li>
+            <li>Speaker at "The academic seminar for young postdoctoral scholars of double carbon science and technology," China Postdoctoral Science Foundation (December 7-8, 2023)</li>
+            <li>Speaker at "Tenth Doctoral Forum Natural Sciences," Nanjing University, China (November 18, 2017)</li>
+            <li>Organizer of "Biosafety and biodiversity," Pakistan Academy of Sciences (March 23, 2015)</li>
+            <li>Organizer of "Dual Use Concept in Biotechnology," Pakistan Academy of Sciences (March 25, 2014)</li>
+            <li>Organizer of "Biotechnology Exhibition" KUST, Pakistan (June 12, 2012)</li>
+            <li>First prize in "Biotechnology Poster Exhibition" KUST, Pakistan (April 01, 2011)</li>
+            <li>First prize in "DNA Model Exhibition," KUST, Pakistan (March 10, 2010)</li>
+        </ul>
+    </div>
+
+    <div id="publications" class="tab-content content">
+        <h2>List of Publications</h2>
+        <ul>
+            <li><strong>Lead Author Publications:</strong></li>
+            <li>Abdul Wakeel Umar, Ahmad, N., Xu, M. (2024). "Reviving Natural Rubber Synthesis via Native/Large Nanodiscs." Polymers, Vol. 16, pp. 1468.</li>
+            <li>Abdul Wakeel Umar, Stephen B. R. (May 2023) "Plant molecular engine out of the chassis: natural rubber synthesis in cell-free systems." Industrial Crops & Products, Vol. 195, pp.116166.</li>
+            <li>Abdul Wakeel, Gan, Y. (March 2021) "Dichromate-induced ethylene biosynthesis, perception, and signaling regulate the variance in root growth inhibition among Shaheen basmati and basmati-385 rice varieties." Environmental Science and Pollution Research.</li>
+            <li>Abdul Wakeel, Wang, L., Xu, M. (March 2021) "SPEECHLESS and MUTE Mediate Feedback Regulation of Signal Transduction during Stomatal Development." Plants-Basel, Vol.10(3), pp.432.</li>
+            <li>Abdul Wakeel and Xu, M. (May 2020) "Chromium Morpho-Phytotoxicity." Plants-Basel, Vol.9(5), pp.564.</li>
+            <li>Abdul Wakeel, Xu, M… (January 2020) "Chromium-Induced Reactive Oxygen Species Accumulation by Altering the Enzymatic Antioxidant System and Associated Cytotoxic, Genotoxic, Ultrastructural, and Photosynthetic Changes in Plants." International Journal of Molecular Sciences, Vol.21(3), pp.728.</li>
+            <li>Abdul Wakeel, …Gan, Y. (May 2019) "Ethylene mediates dichromate-induced oxidative stress and regulation of the enzymatic antioxidant system-related transcriptome in Arabidopsis thaliana." Environmental and Experimental Botany, Vol.161(1), pp.166-179.</li>
+            <li>Abdul Wakeel, ..Gan, Y. (June 2018) "Ethylene mediates dichromate induced inhibition of primary root growth by altering AUX1 expression and auxin accumulation in Arabidopsis thaliana." Plant, cell & environment, Vol.41(6), pp.1453-146.</li>
+        </ul>
+        <p>For more publications, please visit <a href="https://scholar.google.com/citations?hl=en&user=wTmf7QUAAAAJ/" target="_blank">Google Scholar</a>.</p>
+    </div>
+
+    <div id="contact" class="tab-content content">
+        <h2>Contact</h2>
+        <p>For collaboration and professional inquiries, please contact me via email or phone:</p>
+        <ul>
+            <li>Email: abwzju@zju.edu.cn, awzju@bnu.edu.cn, abwzju@gmail.com</li>
+            <li>Phone: +86-15875692917</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Dr. Abdul Wakeel Umar. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function showTab(tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+    }
+</script>
+
+</body>
+</html>
